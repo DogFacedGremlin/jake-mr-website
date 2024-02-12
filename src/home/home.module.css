@@ -1,0 +1,64 @@
+header {
+    background-color: rgba(144, 103, 185, 0);
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: center;
+    color: #333;
+  }
+  
+  .app-container {
+    background-image: url("https://vastphotos.com/files/uploads/photos/11678/flower-wallpaper-photo-l.jpg?v=20231106162306");
+    min-height: 100vh; /* Ensure it covers the full height of the viewport */
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  /* Continue in App.css */
+  footer {
+    background-color: rgb(144, 103, 185);
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer p {
+    margin: 0;
+    color: #6c757d;
+  }
+  div.page-container {
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(231, 231, 231, 0);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 126px;
+  }
+  
+  p {
+    color: #111111;
+    font-size: 26px;
+  }  

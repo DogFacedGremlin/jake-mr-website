@@ -1,0 +1,21 @@
+.text{
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(20, 20, 20);
+    background-color: rgb(241, 141, 196);
+    font-size: 26px;
+    align-items: center;
+    white-space: pre-wrap;
+}
+.holder{
+    padding-top: 20%;
+    flex-direction: column;
+    display: flex;
+    padding-left: 45%;
+    padding-right: 45%;
+}
+.div{
+    padding: 20px;
+    height: 700px;
+    background-color: rgba(231, 231, 231, 0);
+    text-align: center;
+}

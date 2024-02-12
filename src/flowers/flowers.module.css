@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates a responsive grid */
+    grid-gap: 20px; /* Adjusts the space between grid items */
+    padding: 20px; /* Optional: Adds some padding around the grid */
+    height: 700px;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  .item img {
+    width: 100%; /* Makes images fully responsive within their containers */
+    height: auto; /* Maintains the aspect ratio of the images */
+    display: block; /* Removes bottom space under the image */
+  }
